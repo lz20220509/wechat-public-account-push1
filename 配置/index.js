@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "wxb386d38191d1077b",
+  APP_ID: "wx43cb00e6281d9b53",
 
   // 公众号APP_SECRET
-  APP_SECRET: "1c5df27a13c0ad6dd0140461fe7a1332",
+  APP_SECRET: "b79a0dd81c3e0210e832fe85a5c88257",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -33,19 +33,19 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "4m6mJtOAPt6Q9ZdxhznUyr8Kd0ShwGJtOdfptCkvGz4",
       // 所在省份
-      province: "河南",
+      province: "山西",
       // 所在城市
-      city: "新乡",
+      city: "太原",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn"
+      openUrl: "k.wazf.top/1727"
     }, 
     {
       name: "小李同志", 
-      id: "okFIj55kB8y_5Su4aLzpl6vU52Q0",
+      id: "oqvG758BluX1EmBxeBSB4U5ZTDwM",
       useTemplateId: "4m6mJtOAPt6Q9ZdxhznUyr8Kd0ShwGJtOdfptCkvGz4",
-      province: "河南",
-      city: "新乡",
-      openUrl: "https://wangxinleo.cn"
+      province: "山西",
+      city: "太原",
+      openUrl: "k.wazf.top/1727"
     }, 
 
   /**
@@ -61,7 +61,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "okFIj55kB8y_5Su4aLzpl6vU52Q0",
+      id: "b79a0dd81c3e0210e832fe85a5c88257",
     }, 
   ],
     
@@ -72,9 +72,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "河南",
+  PROVINCE: "山西",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "新乡",
+  CITY: "太原",
 
   /** 重要节日相关 */
 
@@ -85,8 +85,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "小王同志", "year": "2002", "date": "07-20"},
-    {"type": "生日", "name": "小李同志", "year": "2001", "date": "09-21"},
+    {"type": "节日", "name": "笨蛋佳儿", "year": "2022", "date": "09-10"},
+    {"type": "节日", "name": "花海", "year": "2022", "date": "09-10"},
   ],
 
   /**
@@ -104,7 +104,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2019-03-10"},
+    //{"keyword": "love_day", date: "2019-03-10"},
  
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
@@ -122,10 +122,10 @@ export const config = {
     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
+      "笨蛋佳儿，笨蛋佳儿",
+      "祝你天天开心",
+      "我知道，你很傻，你很笨，老胡思乱想，可我好羡慕你",
+      "放心吧，我不会介意",
     ]},
   ],
 
